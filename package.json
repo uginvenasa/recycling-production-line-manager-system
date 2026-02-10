@@ -1,17 +1,24 @@
 {
   "name": "recycling-production-line-manager-system",
   "version": "1.0.0",
-  "description": "",
+  "description": "Backend system for managing recycling production line data",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node database/generateCandidates.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/uginvenasa/recycling-production-line-manager-system.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "nodejs",
+    "faker",
+    "database",
+    "backend",
+    "sql"
+  ],
+  "author": "uginvenasa",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/uginvenasa/recycling-production-line-manager-system/issues"
@@ -21,3 +28,4 @@
     "@faker-js/faker": "^10.3.0"
   }
 }
+
